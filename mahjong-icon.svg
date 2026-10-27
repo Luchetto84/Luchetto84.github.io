@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b3a33"/>
+      <stop offset="1" stop-color="#06201f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7dffd2" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#7dffd2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
+  <!-- tessera: 1 cerchio -->
+  <g transform="rotate(-10 92 140)">
+    <rect x="44" y="72" width="104" height="136" rx="16" fill="#0f5c3a" transform="translate(9 9)"/>
+    <rect x="44" y="72" width="104" height="136" rx="16" fill="#1f8a5b" transform="translate(5 5)"/>
+    <rect x="44" y="72" width="104" height="136" rx="16" fill="#fbf4e2"/>
+    <circle cx="96" cy="140" r="36" fill="#13814a"/>
+    <circle cx="96" cy="140" r="29" fill="#fbf4e2"/>
+    <circle cx="96" cy="140" r="18" fill="#c8202b"/>
+    <circle cx="96" cy="140" r="11" fill="#fbf4e2"/>
+    <circle cx="96" cy="140" r="6" fill="#c8202b"/>
+  </g>
+  <!-- Lumi con il cappello di paglia -->
+  <circle cx="178" cy="150" r="62" fill="url(#glow)"/>
+  <circle cx="178" cy="156" r="40" fill="#c8fff0"/>
+  <circle cx="178" cy="163" r="33" fill="#b9f2e2"/>
+  <circle cx="164" cy="150" r="5" fill="#1d1240"/>
+  <circle cx="192" cy="150" r="5" fill="#1d1240"/>
+  <circle cx="159" cy="163" r="5" fill="#ff7aa5" opacity="0.6"/>
+  <circle cx="197" cy="163" r="5" fill="#ff7aa5" opacity="0.6"/>
+  <path d="M170 164 Q178 173 186 164" stroke="#1d1240" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M118 136 L178 92 L238 136 Q178 146 118 136 Z" fill="#f1c66b"/>
+  <path d="M178 92 L238 136 Q208 142 178 142 Z" fill="#d9a54e"/>
+  <path d="M136 124 Q178 131 220 124 L226 129 Q178 137 130 129 Z" fill="#d6283a"/>
+  <circle cx="178" cy="92" r="6" fill="#d6283a"/>
+</svg>
