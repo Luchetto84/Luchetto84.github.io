@@ -108,6 +108,8 @@ a { color: var(--accent); }
 .g-prisma .genre { color: #7df9ff; }
 .g-prisma .game-media { background: radial-gradient(circle at 30% 20%, #3a1d6e, #0d3b4f); }
 .g-mahjong .genre { color: #7dffd2; }
+.g-fbws .genre { color: #fbbf24; }
+.g-fbws .game-media { background: radial-gradient(circle at 30% 20%, #1e3a7a, #070f24); }
 .g-mahjong .game-media { background: radial-gradient(circle at 30% 20%, #0f5c4a, #06201f); }
 .g-roulette .genre { color: #ff6b6b; }
 .g-roulette .game-media img.banner { object-position: 85% center; }
