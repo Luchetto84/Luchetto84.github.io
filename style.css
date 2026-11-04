@@ -28,8 +28,16 @@ body {
 }
 
 /* lingua: si vede solo il testo della lingua scelta */
-html[data-lang="en"] [lang="it"],
-html[data-lang="it"] [lang="en"] { display: none !important; }
+html:not([data-lang="en"]) body [lang="en"],
+html:not([data-lang="it"]) body [lang="it"],
+html:not([data-lang="es"]) body [lang="es"],
+html:not([data-lang="fr"]) body [lang="fr"],
+html:not([data-lang="de"]) body [lang="de"],
+html:not([data-lang="pt"]) body [lang="pt"],
+html:not([data-lang="ru"]) body [lang="ru"],
+html:not([data-lang="tr"]) body [lang="tr"],
+html:not([data-lang="ja"]) body [lang="ja"],
+html:not([data-lang="ko"]) body [lang="ko"] { display: none !important; }
 
 a { color: var(--accent); }
 
@@ -136,3 +144,9 @@ footer a { color: var(--muted); }
   .nav a.hide-sm { display: none; }
   .hero { padding-top: 56px; padding-bottom: 40px; }
 }
+
+select.lang { appearance: none; -webkit-appearance: none; cursor: pointer; padding-right: 14px; }
+select.lang option { color: #111; }
+.g-pants .genre { color: #ff7ac0; }
+.g-pants .game-media { background: radial-gradient(circle at 70% 30%, #ff9ac8, #5a1f4a); }
+.g-fbws .game-media img.banner { object-position: left center; }
