@@ -150,3 +150,22 @@ select.lang option { color: #111; }
 .g-pants .genre { color: #ff7ac0; }
 .g-pants .game-media { background: radial-gradient(circle at 70% 30%, #ff9ac8, #5a1f4a); }
 .g-fbws .game-media img.banner { object-position: left center; }
+
+/* Word Blade */
+.g-wordblade .genre { color: #ffc46b; }
+.g-wordblade .game-media { background: radial-gradient(circle at 30% 30%, #5a1446, #1a0830); }
+
+/* Lumi, la mascotte */
+.brand-lumi { width: 38px; height: 38px; filter: drop-shadow(0 0 8px rgba(125, 249, 255, .55)); animation: lumi-bob 3s ease-in-out infinite; }
+.lumi-hero { position: relative; display: flex; flex-direction: column; align-items: center; margin: -20px auto 6px; }
+.lumi-float { width: 140px; height: 140px; animation: lumi-bob 3s ease-in-out infinite; filter: drop-shadow(0 0 22px rgba(125, 249, 255, .45)); }
+.lumi-bubble {
+  position: relative; background: #fff; color: #1d1240; font-weight: 800; font-size: 16px;
+  border-radius: 999px; padding: 10px 20px; margin-bottom: 4px; box-shadow: 0 10px 30px rgba(0,0,0,.35);
+  animation: lumi-pop .6s ease-out both .3s;
+}
+.lumi-bubble::after { content: ""; position: absolute; left: 50%; bottom: -9px; margin-left: -9px; border: 9px solid transparent; border-bottom: 0; border-top-color: #fff; }
+@keyframes lumi-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+@keyframes lumi-pop { from { opacity: 0; transform: scale(.6) translateY(10px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .brand-lumi, .lumi-float, .lumi-bubble { animation: none; } }
+.g-wordblade .game-media img.banner { object-fit: contain; }

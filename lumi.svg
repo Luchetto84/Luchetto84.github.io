@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7df9ff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7df9ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Lumi, lo spiritello di luce di PRISMA, Mahjong Maestro e Word Blade -->
+  <circle cx="64" cy="64" r="62" fill="url(#glow)"/>
+  <circle cx="64" cy="64" r="38" fill="#c9fdff"/>
+  <circle cx="64" cy="71" r="31" fill="#b6eef2"/>
+  <circle cx="50" cy="51" r="6" fill="#ffffff" opacity="0.8"/>
+  <rect x="47" y="57" width="6" height="12" rx="3" fill="#1d1240"/>
+  <rect x="75" y="57" width="6" height="12" rx="3" fill="#1d1240"/>
+  <circle cx="49" cy="59" r="1.6" fill="#fff"/>
+  <circle cx="77" cy="59" r="1.6" fill="#fff"/>
+  <circle cx="44" cy="74" r="5" fill="#ff7aa5" opacity="0.55"/>
+  <circle cx="84" cy="74" r="5" fill="#ff7aa5" opacity="0.55"/>
+  <path d="M57 74 Q64 82 71 74" stroke="#1d1240" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+</svg>
