@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luca Bartiromo Games</title>
+  <meta name="description" content="Indie mobile games by Luca Bartiromo: PRISMA, Mahjong Maestro, From Bedroom to Wall Street, Last Roulette: Deal with Death, Galactic Buuurrrp Survival, Pants Thief, Word Blade and Rotate Rings.">
+  <link rel="icon" href="lumi.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="lumi.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="lang.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="./"><img class="brand-lumi" src="lumi.svg" alt="Lumi">Luca Bartiromo Games</a>
+      <nav class="nav">
+        <a href="#games" class="hide-sm"><span lang="en">Games</span><span lang="it">Giochi</span><span lang="es">Juegos</span><span lang="fr">Jeux</span><span lang="de">Spiele</span><span lang="pt">Jogos</span><span lang="ru">Игры</span><span lang="tr">Oyunlar</span><span lang="ja">ゲーム</span><span lang="ko">게임</span></a>
+        <a href="privacy.html">Privacy</a>
+        <select class="lang" id="lang-sel" aria-label="Language"><option value="en">English</option><option value="it">Italiano</option><option value="es">Español</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="pt">Português</option><option value="ru">Русский</option><option value="tr">Türkçe</option><option value="ja">日本語</option><option value="ko">한국어</option></select>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="lumi-hero" aria-hidden="true"><div class="lumi-bubble"><span lang="en">Hi, I'm Lumi! I live in all these games.</span><span lang="it">Ciao, sono Lumi! Vivo in tutti questi giochi.</span><span lang="es">¡Hola, soy Lumi! Vivo en todos estos juegos.</span><span lang="fr">Salut, je suis Lumi ! Je vis dans tous ces jeux.</span><span lang="de">Hallo, ich bin Lumi! Ich wohne in all diesen Spielen.</span><span lang="pt">Oi, eu sou o Lumi! Eu vivo em todos estes jogos.</span><span lang="ru">Привет, я Луми! Я живу во всех этих играх.</span><span lang="tr">Merhaba, ben Lumi! Bütün bu oyunlarda yaşıyorum.</span><span lang="ja">こんにちは、ルミだよ! ここのゲームみんなに住んでるよ。</span><span lang="ko">안녕, 나는 루미야! 이 게임들 모두에 살고 있어.</span></div><img class="lumi-float" src="lumi.svg" alt=""></div>
+      <h1>
+        <span lang="en">Small games,<br><span class="grad">big fun.</span></span>
+        <span lang="it">Piccoli giochi,<br><span class="grad">grande divertimento.</span></span><span lang="es">Juegos pequeños,<br><span class="grad">gran diversión.</span></span><span lang="fr">Petits jeux,<br><span class="grad">grand plaisir.</span></span><span lang="de">Kleine Spiele,<br><span class="grad">großer Spaß.</span></span><span lang="pt">Jogos pequenos,<br><span class="grad">diversão enorme.</span></span><span lang="ru">Маленькие игры,<br><span class="grad">большое веселье.</span></span><span lang="tr">Küçük oyunlar,<br><span class="grad">büyük eğlence.</span></span><span lang="ja">小さなゲーム、<br><span class="grad">大きな楽しさ。</span></span><span lang="ko">작은 게임,<br><span class="grad">큰 재미.</span></span>
+      </h1>
+      <p>
+        <span lang="en">Independent mobile games made in Italy with Godot. Easy to pick up, hard to put down.</span>
+        <span lang="it">Giochi indipendenti per smartphone, fatti in Italia con Godot. Facili da iniziare, difficili da lasciare.</span><span lang="es">Juegos indie para móvil hechos en Italia con Godot. Fáciles de empezar, difíciles de dejar.</span><span lang="fr">Jeux mobiles indépendants créés en Italie avec Godot. Faciles à prendre en main, difficiles à lâcher.</span><span lang="de">Unabhängige Handyspiele aus Italien, gemacht mit Godot. Leicht zu lernen, schwer wegzulegen.</span><span lang="pt">Jogos indie para celular feitos na Itália com Godot. Fáceis de começar, difíceis de largar.</span><span lang="ru">Независимые мобильные игры из Италии, созданные на Godot. Легко начать, трудно оторваться.</span><span lang="tr">Godot ile İtalya'da yapılmış bağımsız mobil oyunlar. Başlaması kolay, bırakması zor.</span><span lang="ja">Godotでイタリアで作られたインディーのスマホゲーム。始めやすく、やめにくい。</span><span lang="ko">Godot로 이탈리아에서 만든 인디 모바일 게임. 시작은 쉽고, 멈추기는 어렵습니다.</span>
+      </p>
+      <div class="pills">
+        <span class="pill">Android</span>
+        <span class="pill">Godot Engine</span>
+        <span class="pill"><span lang="en">Made in Italy</span><span lang="it">Fatto in Italia</span><span lang="es">Hecho en Italia</span><span lang="fr">Made in Italy</span><span lang="de">Made in Italy</span><span lang="pt">Feito na Itália</span><span lang="ru">Сделано в Италии</span><span lang="tr">İtalya'da yapıldı</span><span lang="ja">イタリア製</span><span lang="ko">이탈리아 제작</span></span>
+      </div>
+    </section>
+
+    <section id="games" class="games wrap">
+      <article class="game g-rings" id="rotate-rings">
+        <div class="game-media">
+          <img class="banner" src="rotaterings-banner.jpg" alt="Rotate Rings: colored rings, a golden jewel and Lumi" loading="lazy">
+        </div>
+        <div class="game-body">
+          <div class="game-head">
+            <img class="game-icon" src="rotaterings-icon.jpg" alt="Rotate Rings icon">
+            <div>
+              <div class="genre"><span lang="en">Puzzle · 10 languages</span><span lang="it">Rompicapo · 10 lingue</span><span lang="es">Rompecabezas · 10 idiomas</span><span lang="fr">Casse-tête · 10 langues</span><span lang="de">Rätsel · 10 Sprachen</span><span lang="pt">Quebra-cabeça · 10 idiomas</span><span lang="ru">Головоломка · 10 языков</span><span lang="tr">Bulmaca · 10 dil</span><span lang="ja">パズル · 10言語</span><span lang="ko">퍼즐 · 10개 언어</span></div>
+              <h2>Rotate Rings</h2>
+            </div>
+          </div>
+          <p>
+            <span lang="en">Spin the rings and bring every gap to the top: when they line up, a jewel piece slides free. Rebuild 8 precious jewels piece by piece, with Lumi and his jeweler's loupe.</span><span lang="it">Gira gli anelli e porta tutte le aperture in alto: quando sono allineate, un pezzo di gioiello si libera. Ricomponi 8 gioielli preziosi pezzo dopo pezzo, con Lumi e la sua lente da gioielliere.</span><span lang="es">Gira los anillos y lleva todas las aberturas arriba: cuando se alinean, una pieza de joya queda libre. Reconstruye 8 joyas preciosas pieza a pieza, con Lumi y su lupa de joyero.</span><span lang="fr">Tourne les anneaux et amène toutes les ouvertures en haut : quand elles sont alignées, une pièce de bijou se libère. Reconstitue 8 bijoux précieux pièce par pièce, avec Lumi et sa loupe de bijoutier.</span><span lang="de">Dreh die Ringe und bring alle Öffnungen nach oben: Sind sie ausgerichtet, löst sich ein Juwelenteil. Setze 8 kostbare Juwelen Stück für Stück zusammen, mit Lumi und seiner Juwelierlupe.</span><span lang="pt">Gire os anéis e leve todas as aberturas para cima: quando se alinham, uma peça de joia se solta. Remonte 8 joias preciosas peça por peça, com a Lumi e sua lupa de joalheiro.</span><span lang="ru">Крути кольца и выводи все прорези наверх: когда они совпадут, деталь украшения освободится. Собери 8 драгоценностей по кусочкам вместе с Луми и его лупой ювелира.</span><span lang="tr">Halkaları çevir ve tüm boşlukları yukarı getir: hizalandıklarında bir mücevher parçası serbest kalır. Lumi ve kuyumcu büyüteciyle 8 değerli mücevheri parça parça tamamla.</span><span lang="ja">リングを回して、すべてのすき間を上にそろえよう。そろうと宝石のピースが外れます。ルミと宝石ルーペと一緒に、8つの宝石をひとつずつ完成させよう。</span><span lang="ko">링을 돌려 모든 틈을 위로 맞추세요. 틈이 맞으면 보석 조각이 풀려납니다. 루미와 보석 돋보기와 함께 귀한 보석 8개를 조각조각 완성하세요.</span>
+          </p>
+          <ul>
+            <li><span lang="en">160 levels that get trickier step by step, with linked rings</span><span lang="it">160 livelli sempre più ingegnosi, con anelli collegati</span><span lang="es">160 niveles cada vez más ingeniosos, con anillos unidos</span><span lang="fr">160 niveaux de plus en plus astucieux, avec des anneaux liés</span><span lang="de">160 Level, die immer kniffliger werden, mit verbundenen Ringen</span><span lang="pt">160 níveis cada vez mais engenhosos, com anéis ligados</span><span lang="ru">160 уровней, которые становятся всё хитрее, со связанными кольцами</span><span lang="tr">Bağlı halkalarla giderek zorlaşan 160 seviye</span><span lang="ja">つながったリングも登場する、だんだん手ごわくなる160レベル</span><span lang="ko">연결된 링과 함께 점점 어려워지는 160개 레벨</span></li>
+            <li><span lang="en">8 jewels, each broken into 20 pieces: pocket watch, ruby ring, royal crown and more</span><span lang="it">8 gioielli smontati in 20 pezzi: orologio da taschino, anello di rubino, corona reale e altri</span><span lang="es">8 joyas divididas en 20 piezas: reloj de bolsillo, anillo de rubí, corona real y más</span><span lang="fr">8 bijoux découpés en 20 pièces : montre de poche, bague en rubis, couronne royale et plus</span><span lang="de">8 Juwelen in je 20 Teilen: Taschenuhr, Rubinring, Königskrone und mehr</span><span lang="pt">8 joias divididas em 20 peças: relógio de bolso, anel de rubi, coroa real e mais</span><span lang="ru">8 драгоценностей по 20 деталей: карманные часы, кольцо с рубином, корона и другие</span><span lang="tr">20 parçaya ayrılmış 8 mücevher: cep saati, yakut yüzük, kraliyet tacı ve daha fazlası</span><span lang="ja">20ピースに分かれた8つの宝石：懐中時計、ルビーの指輪、王冠など</span><span lang="ko">20조각으로 나뉜 보석 8개: 회중시계, 루비 반지, 왕관 등</span></li>
+            <li><span lang="en">Gems and helps when you are stuck: Hint, Auto Spin and Solve</span><span lang="it">Gemme e aiuti quando sei bloccato: Indizio, Gira e Risolvi</span><span lang="es">Gemas y ayudas cuando te atascas: Pista, Girar y Resolver</span><span lang="fr">Gemmes et aides quand tu bloques : Indice, Tourner et Résoudre</span><span lang="de">Edelsteine und Hilfen, wenn du feststeckst: Tipp, Drehen und Lösen</span><span lang="pt">Gemas e ajudas quando travar: Dica, Girar e Resolver</span><span lang="ru">Самоцветы и помощь, если застрял: Подсказка, Поворот и Решить</span><span lang="tr">Takıldığında elmaslar ve yardımlar: İpucu, Çevir ve Çöz</span><span lang="ja">困ったらジェムでヒント・自動回転・解決</span><span lang="ko">막히면 젬으로 힌트, 자동 회전, 해결</span></li>
+            <li><span lang="en">10 languages:</span><span lang="it">10 lingue:</span><span lang="es">10 lenguas:</span><span lang="fr">10 langues:</span><span lang="de">10 Sprachen:</span><span lang="pt">10 línguas:</span><span lang="ru">10 языков:</span><span lang="tr">10 dil:</span><span lang="ja">10 言語:</span><span lang="ko">10개의 언어:</span> English, Italiano, Español, Français, Deutsch, Português, Русский, Türkçe, 日本語, 한국어</li>
+          </ul>
+          <span class="status"><span lang="en">Coming soon to Google Play</span><span lang="it">Presto su Google Play</span><span lang="es">Muy pronto en Google Play</span><span lang="fr">Bientôt sur Google Play</span><span lang="de">Bald auf Google Play</span><span lang="pt">Em breve no Google Play</span><span lang="ru">Скоро в Google Play</span><span lang="tr">Yakında Google Play'de</span><span lang="ja">Google Playで近日公開</span><span lang="ko">Google Play 출시 예정</span></span>
+        </div>
+      </article>
+
+
+      <article class="game g-wordblade" id="word-blade">
+        <div class="game-media">
+          <img class="banner" src="wordblade-banner.jpg" alt="Word Blade: Lumi under the blade" loading="lazy">
+        </div>
+        <div class="game-body">
+          <div class="game-head">
+            <img class="game-icon" src="wordblade-icon.svg" alt="Word Blade icon">
+            <div>
+              <div class="genre"><span lang="en">Word puzzle · 10 languages</span><span lang="it">Gioco di parole · 10 lingue</span><span lang="es">Juego de palabras · 10 idiomas</span><span lang="fr">Jeu de mots · 10 langues</span><span lang="de">Worträtsel · 10 Sprachen</span><span lang="pt">Jogo de palavras · 10 idiomas</span><span lang="ru">Игра в слова · 10 языков</span><span lang="tr">Kelime oyunu · 10 dil</span><span lang="ja">ことばパズル · 10言語</span><span lang="ko">단어 퍼즐 · 10개 언어</span></div>
+              <h2>Word Blade</h2>
+            </div>
+          </div>
+          <p>
+            <span lang="en">Five words appear, one word links them all. Find it before the blade falls on Lumi! Every language has its own puzzles, built on its own idioms and famous titles.</span><span lang="it">Compaiono cinque parole e una sola le lega tutte. Trovala prima che la lama cada su Lumi! Ogni lingua ha le sue sfide, costruite sui suoi modi di dire e sui titoli famosi.</span><span lang="es">Aparecen cinco palabras y una sola las une a todas. ¡Encuéntrala antes de que la cuchilla caiga sobre Lumi! Cada idioma tiene sus propios retos, hechos con sus expresiones y títulos famosos.</span><span lang="fr">Cinq mots apparaissent, un seul les relie tous. Trouve-le avant que la lame ne tombe sur Lumi ! Chaque langue a ses propres énigmes, construites sur ses expressions et ses titres célèbres.</span><span lang="de">Fünf Wörter erscheinen, ein einziges verbindet sie alle. Finde es, bevor die Klinge auf Lumi fällt! Jede Sprache hat ihre eigenen Rätsel, gebaut aus ihren Redewendungen und berühmten Titeln.</span><span lang="pt">Aparecem cinco palavras e só uma liga todas. Encontre-a antes que a lâmina caia sobre o Lumi! Cada idioma tem seus próprios desafios, feitos com suas expressões e títulos famosos.</span><span lang="ru">Появляются пять слов, и только одно связывает их все. Найди его, пока лезвие не упало на Луми! В каждом языке свои загадки — на его выражениях и известных названиях.</span><span lang="tr">Beş kelime çıkar, hepsini tek bir kelime bağlar. Bıçak Lumi'nin üstüne düşmeden onu bul! Her dilin kendi deyimleri ve ünlü isimleriyle hazırlanmış kendi bulmacaları var.</span><span lang="ja">5つのことばが出てきて、それをつなぐことばは1つだけ。刃がルミに落ちる前に見つけよう!言語ごとに、その言語の言いまわしや有名なタイトルで作ったオリジナル問題。</span><span lang="ko">단어 5개가 나오고, 그 모두를 잇는 단어는 하나뿐. 칼날이 루미에게 떨어지기 전에 찾아내세요! 언어마다 그 언어의 표현과 유명한 제목으로 만든 문제가 있어요.</span>
+          </p>
+          <ul>
+            <li><span lang="en">More than 880 puzzles in 6 levels, from warm-up to legend</span><span lang="it">Oltre 880 sfide in 6 livelli, dal riscaldamento alla leggenda</span><span lang="es">Más de 880 retos en 6 niveles, del calentamiento a la leyenda</span><span lang="fr">Plus de 880 énigmes en 6 niveaux, de l'échauffement à la légende</span><span lang="de">Über 880 Rätsel in 6 Leveln, vom Aufwärmen bis zur Legende</span><span lang="pt">Mais de 880 desafios em 6 níveis, do aquecimento à lenda</span><span lang="ru">Более 880 загадок на 6 уровнях — от разминки до легенды</span><span lang="tr">Isınmadan efsaneye 6 seviyede 880'den fazla bulmaca</span><span lang="ja">ウォームアップからレジェンドまで、6レベルで880問以上</span><span lang="ko">몸풀기부터 전설까지 6단계, 880개 이상의 문제</span></li>
+            <li><span lang="en">A jackpot that drops every second, hints from Grandma and a second life for Lumi</span><span lang="it">Un montepremi che scende ogni secondo, gli aiuti della Nonna e una seconda vita per Lumi</span><span lang="es">Un premio que baja cada segundo, las pistas de la Abuela y una segunda vida para Lumi</span><span lang="fr">Une cagnotte qui baisse chaque seconde, les indices de Mamie et une deuxième vie pour Lumi</span><span lang="de">Ein Jackpot, der jede Sekunde sinkt, Hilfen von Oma und ein zweites Leben für Lumi</span><span lang="pt">Um prêmio que cai a cada segundo, as dicas da Vovó e uma segunda vida para o Lumi</span><span lang="ru">Приз тает каждую секунду, подсказки Бабушки и вторая жизнь для Луми</span><span lang="tr">Her saniye azalan ödül, Nine'nin ipuçları ve Lumi için ikinci can</span><span lang="ja">1秒ごとに減る賞金、おばあちゃんのヒント、ルミのセカンドライフ</span><span lang="ko">1초마다 줄어드는 상금, 할머니의 힌트, 루미의 두 번째 목숨</span></li>
+            <li><span lang="en">Solo or 2 players on the same phone</span><span lang="it">Da solo o in 2 sullo stesso telefono</span><span lang="es">Solo o 2 jugadores en el mismo móvil</span><span lang="fr">Seul ou à 2 sur le même téléphone</span><span lang="de">Allein oder zu zweit an einem Handy</span><span lang="pt">Sozinho ou em 2 no mesmo celular</span><span lang="ru">Один или вдвоём на одном телефоне</span><span lang="tr">Tek başına ya da aynı telefonda 2 kişi</span><span lang="ja">ひとりでも、1台のスマホでふたりでも</span><span lang="ko">혼자서, 또는 폰 하나로 둘이서</span></li>
+            <li><span lang="en">10 languages:</span><span lang="it">10 lingue:</span><span lang="es">10 lenguas:</span><span lang="fr">10 langues:</span><span lang="de">10 Sprachen:</span><span lang="pt">10 línguas:</span><span lang="ru">10 языков:</span><span lang="tr">10 dil:</span><span lang="ja">10 言語:</span><span lang="ko">10개의 언어:</span> English, Italiano, Español, Français, Deutsch, Português, Русский, Türkçe, 日本語, 한국어</li>
+          </ul>
+          <span class="status"><span lang="en">Coming soon to Google Play</span><span lang="it">Presto su Google Play</span><span lang="es">Muy pronto en Google Play</span><span lang="fr">Bientôt sur Google Play</span><span lang="de">Bald auf Google Play</span><span lang="pt">Em breve no Google Play</span><span lang="ru">Скоро в Google Play</span><span lang="tr">Yakında Google Play'de</span><span lang="ja">まもなくGoogle Playで公開</span><span lang="ko">곧 Google Play 출시</span></span>
+        </div>
+      </article>
+
+
+      <article class="game g-prisma" id="prisma">
+        <div class="game-media">
+          <img class="shot" src="prisma-best.jpg" alt="PRISMA game over screen with a new best score" loading="lazy">
+          <img class="shot" src="prisma-shop.jpg" alt="PRISMA customize screen with themes" loading="lazy">
+        </div>
+        <div class="game-body">
+          <div class="game-head">
+            <img class="game-icon" src="prisma-icon.svg" alt="PRISMA icon">
+            <div>
+              <div class="genre"><span lang="en">Block puzzle</span><span lang="it">Puzzle a blocchi</span><span lang="es">Puzzle de bloqueo</span><span lang="fr">Puzzle de blocage</span><span lang="de">Block-Puzzle</span><span lang="pt">Bloco de quebra-cabeça</span><span lang="ru">Блок-пазл</span><span lang="tr">Blok bulmaca</span><span lang="ja">ブロックパズル</span><span lang="ko">블록 퍼즐</span></div>
+              <h2>PRISMA – Blocks of Light</h2>
+            </div>
+          </div>
+          <p>
+            <span lang="en">Drag the pieces, fill rows and columns, chain combos and charge the rainbow Prism that clears a whole row and column at once.</span>
+            <span lang="it">Trascina i pezzi, completa righe e colonne, concatena le combo e carica il Prisma arcobaleno che cancella in un colpo una riga e una colonna.</span><span lang="es">Arraste las piezas, llene filas y columnas, en cadena combos y cargue el Prisma del arco iris que despeja toda una fila y columna a la vez.</span><span lang="fr">Tirez les morceaux, remplissez des rangées et des colonnes, enchaînez les combos et chargez le prisme arc-en-ciel qui efface toute une rangée et une colonne à la fois.</span><span lang="de">Ziehen Sie die Teile, füllen Sie Zeilen und Spalten, verhängen Sie Kettenkombinationen und laden Sie das Regenbogen-Prisma, das eine ganze Reihe und Spalte auf einmal löscht.</span><span lang="pt">Arraste as peças, preencha filas e colunas, cadeia combos e carregue o Prisma do arco-íris que limpa toda uma fila e coluna de uma só vez.</span><span lang="ru">Спустите кусочки, заполните строки и колонки, цепьте комбинации и загрузите радужную призму, которая очищает весь ряд и колонку сразу.</span><span lang="tr">Parçaları çek, sıra ve sütunları doldurun, zincir kombinasyonlarını yapın ve gökkuşağı Prism'i yükleyin ki tüm bir satır ve sütunu bir anda temizler.</span><span lang="ja">列と列を埋め鎖のコンボを押し付け虹のプリズムを充電して一度に列と列を片付けます</span><span lang="ko">조각을 끌고, 줄과 기둥을 채우고, 연쇄 콤보를 채우고, 무지개 프리즘을 충전하여, 모든 줄과 기둥을 동시에 제거합니다.</span>
+          </p>
+          <ul>
+            <li><span lang="en">Lumi, a little spirit of light who cheers you on</span><span lang="it">Lumi, uno spiritello di luce che fa il tifo per te</span><span lang="es">Lumi, un pequeño espíritu de luz que te anima</span><span lang="fr">Lumi, un petit esprit de lumière qui te fait la joie</span><span lang="de">Lumi, ein kleiner Geist des Lichts, der dich aufmuntert</span><span lang="pt">Lumi, um pequeno espírito de luz que te anima</span><span lang="ru">Луми, маленький дух света, который тебя радует</span><span lang="tr">Lumi, seni teşvik eden küçük bir ışık ruhu.</span><span lang="ja">ルーミ,光の小さな霊があなたを歓喜させる</span><span lang="ko">루미, 당신을 응원하는 작은 빛의 정신</span></li>
+            <li><span lang="en">Daily challenge, 12 constellations to light up</span><span lang="it">Sfida del giorno e 12 costellazioni da accendere</span><span lang="es">Desafío diario, 12 constelaciones para iluminar</span><span lang="fr">Défi quotidien, 12 constellations à éclairer</span><span lang="de">Tägliche Herausforderung, 12 Konstellationen zu beleuchten</span><span lang="pt">Desafio diário, 12 constelações para iluminar</span><span lang="ru">Ежедневная задача, 12 созвездий, которые должны быть освещены</span><span lang="tr">Gündelik zorluk, 12 takımyıldız aydınlatılmalı.</span><span lang="ja">日々の挑戦 12つの星座が照らされる</span><span lang="ko">매일 도전, 12개의 별자리 조명</span></li>
+            <li><span lang="en">5 themes, 4 block styles, a soundtrack that grows with your combo</span><span lang="it">5 temi, 4 stili di blocchi, musica che cresce con la combo</span><span lang="es">5 temas, 4 estilos de bloques, una banda sonora que crece con tu combo</span><span lang="fr">5 thèmes, 4 styles de blocs, une bande sonore qui grandit avec votre combo</span><span lang="de">5 Themen, 4 Block-Styles, ein Soundtrack, der mit deinem Combo wächst</span><span lang="pt">5 temas, 4 estilos de blocos, uma trilha sonora que cresce com o seu combo</span><span lang="ru">5 тем, 4 стиля блока, саундтрек, который растет с вашей комбинацией</span><span lang="tr">5 tema, 4 blok stil, kombinasyonunuzla büyüyen bir soundtrack</span><span lang="ja">5つのテーマ,4つのブロックスタイル組み合わせで成長するサウンドトラック</span><span lang="ko">5개의 테마, 4개의 블록 스타일, 당신의 코무와 함께 성장하는 사운드 트랙</span></li>
+            <li><span lang="en">10 languages:</span><span lang="it">10 lingue:</span><span lang="es">10 lenguas:</span><span lang="fr">10 langues:</span><span lang="de">10 Sprachen:</span><span lang="pt">10 línguas:</span><span lang="ru">10 языков:</span><span lang="tr">10 dil:</span><span lang="ja">10 言語:</span><span lang="ko">10개의 언어:</span> English, Italiano, Español, Français, Deutsch, Português, Русский, Türkçe, 日本語, 한국어</li>
+          </ul>
+          <span class="status"><span lang="en">Coming soon to Google Play</span><span lang="it">Presto su Google Play</span><span lang="es">Muy pronto en Google Play</span><span lang="fr">Bientôt sur Google Play</span><span lang="de">Bald auf Google Play</span><span lang="pt">Em breve no Google Play</span><span lang="ru">Скоро в Google Play</span><span lang="tr">Yakında Google Play'de</span><span lang="ja">まもなくGoogle Playで公開</span><span lang="ko">곧 Google Play 출시</span></span>
+        </div>
+      </article>
+
+      <article class="game g-mahjong" id="mahjong">
+        <div class="game-media">
+          <img class="shot" src="mahjong-home.jpg" alt="Mahjong Maestro home screen with Lumi wearing a straw hat" loading="lazy">
+          <img class="shot" src="mahjong-play.jpg" alt="Mahjong Maestro board with tiles" loading="lazy">
+        </div>
+        <div class="game-body">
+          <div class="game-head">
+            <img class="game-icon" src="mahjong-icon.svg" alt="Mahjong Maestro icon">
+            <div>
+              <div class="genre"><span lang="en">Mahjong solitaire</span><span lang="it">Mahjong solitario</span><span lang="es">Solitaire de Mahjong</span><span lang="fr">Le solitaire de Mahjong</span><span lang="de">Mahjong-Solitaire</span><span lang="pt">Solitaire de Mahjong</span><span lang="ru">Маджонг-солитер</span><span lang="tr">Mahjong Solitaire</span><span lang="ja">マホンジングソリエーター</span><span lang="ko">마혼 솔라이어</span></div>
+              <h2>Mahjong Maestro</h2>
+            </div>
+          </div>
+          <p>
+            <span lang="en">Classic Mahjong solitaire with real tiles and a twist: a 40-level journey with golden pairs, locked tiles and time challenges. Every board can always be solved.</span>
+            <span lang="it">Il Mahjong solitario classico con tessere vere e qualcosa in più: un viaggio di 40 livelli con coppie d'oro, tessere col lucchetto e sfide a tempo. Ogni tavolo si può sempre risolvere.</span><span lang="es">Clásico solitaire de Mahjong con azulejos reales y un giro: Un viaje de 40 niveles con pares dorados, azulejos cerrados y desafíos del tiempo. Cada tabla siempre puede resolverse.</span><span lang="fr">Un classique de solitaire de Mahjong avec de vraies tuiles et un twist: Un voyage de 40 niveaux avec des paires dorées, des tuiles verrouillées et des défis dans le temps. Chaque planche peut toujours être résolue.</span><span lang="de">Klassisches Mahjong-Solitaire mit echten Fliesen und einem Twist: Eine 40-Ebene-Reise mit goldenen Paaren, geschlossenen Fliesen und Zeit-Herausforderungen. Jedes Brett kann immer gelöst werden.</span><span lang="pt">Um solitário de Mahjong clássico com azulejos reais e um toque: Uma viagem de 40 níveis com pares de ouro, azulejos fechados e desafios no tempo. Cada tabela pode ser resolvida.</span><span lang="ru">Классический солитарь "Маджонг" с настоящими плитками и винтом: 40 уровней путешествия с золотыми парами, замкнутыми плитками и временными вызовами. Каждый досок всегда можно решить.</span><span lang="tr">Klasik Mahjong solitaire gerçek kapaklarla ve bir dönüşümle: 40 seviyelik bir yolculuk, altın çiftler, kilitli kapaklar ve zaman zorlukları ile. Her tahta her zaman çözülebilir.</span><span lang="ja">クラシックマホンジングソリエーターリアルタイルのトーク40レベルでの旅黄金ペア鍵付いたタイルと時間課題板はいつでも解決できる</span><span lang="ko">진짜 타일과 트위스트를 가진 클래식 마저 40 레벨의 여행, 금색 쌍, 잠금한 타일과 시간 도전. 모든 보드는 항상 해결될 수 있습니다.</span>
+          </p>
+          <ul>
+            <li><span lang="en">11 layouts, from the gentle Welcome to the Great Wall</span><span lang="it">11 schemi, dal semplice Benvenuto alla Grande Muraglia</span><span lang="es">11 diseños, desde el suave Bienvenido a la Gran Muralla</span><span lang="fr">11 plans, de la douce Bienvenue au Grand Mur</span><span lang="de">11 Layouts, von der sanften Willkommens- zur großen Mauer</span><span lang="pt">11 layouts, do gentil Bem-Vindo à Grande Muralha</span><span lang="ru">11 макетов, от нежного Добро пожаловать в Великую стену</span><span lang="tr">11 plan, büyük duvara hoş geldiniz</span><span lang="ja">11つのレイアウト,温かい歓迎グレートウォール</span><span lang="ko">11개의 레이아웃, 부드러운 환영에서 대벽으로</span></li>
+            <li><span lang="en">Combos, daily challenge, 12 lanterns to light</span><span lang="it">Combo, sfida del giorno, 12 lanterne da accendere</span><span lang="es">Combos, desafío diario, 12 linternas para la luz</span><span lang="fr">Combos, défi quotidien, 12 lanternes à éclairer</span><span lang="de">Combos, tägliche Herausforderung, 12 Laternen zum Licht</span><span lang="pt">Combos, desafio diário, 12 lanternas para a luz</span><span lang="ru">Комбо, ежедневная задача, 12 фонарей на свет</span><span lang="tr">Combos, günlük zorluk, 12 fener aydınlatmak</span><span lang="ja">コンボ,毎日挑戦,12のランプを照らす</span><span lang="ko">콤보, 매일 도전, 12개의 랜턴을 켜</span></li>
+            <li><span lang="en">Tile styles, themes and hats for Lumi, with a calm Chinese-style soundtrack</span><span lang="it">Stili di tessere, temi e cappelli per Lumi, con musica rilassante in stile cinese</span><span lang="es">Estilos de azulejos, temas y sombreros para Lumi, con una banda sonora de estilo chino tranquila</span><span lang="fr">Des styles de carreaux, des thèmes et des chapeaux pour Lumi, avec une bande sonore calme de style chinois</span><span lang="de">Fliesen-Stile, Themen und Hüte für Lumi, mit einem ruhigen Soundtrack im chinesischen Stil</span><span lang="pt">Estilos de azulejos, temas e chapéus para Lumi, com uma trilha sonora de estilo chinês calma</span><span lang="ru">Тиловые стили, темы и шляпы для Луми, с тихим саундтреком китайского стиля</span><span lang="tr">Lumi için kapak, tema ve şapka stilleri, sakin bir Çinli tarz sesli şarkı</span><span lang="ja">ルーミのタイルスタイル,テーマ,帽子,静かな中国風のサウンドトラック</span><span lang="ko">류미의 타일 스타일, 테마 및 모자, 조용한 중국 스타일의 사운드 트랙</span></li>
+            <li><span lang="en">10 languages:</span><span lang="it">10 lingue:</span><span lang="es">10 lenguas:</span><span lang="fr">10 langues:</span><span lang="de">10 Sprachen:</span><span lang="pt">10 línguas:</span><span lang="ru">10 языков:</span><span lang="tr">10 dil:</span><span lang="ja">10 言語:</span><span lang="ko">10개의 언어:</span> English, Italiano, Español, Français, Deutsch, Português, Русский, Türkçe, 日本語, 한국어</li>
+          </ul>
+          <span class="status"><span lang="en">Coming soon to Google Play</span><span lang="it">Presto su Google Play</span><span lang="es">Muy pronto en Google Play</span><span lang="fr">Bientôt sur Google Play</span><span lang="de">Bald auf Google Play</span><span lang="pt">Em breve no Google Play</span><span lang="ru">Скоро в Google Play</span><span lang="tr">Yakında Google Play'de</span><span lang="ja">まもなくGoogle Playで公開</span><span lang="ko">곧 Google Play 출시</span></span>
+        </div>
+      </article>
+
+      <article class="game g-fbws" id="from-bedroom-to-wall-street">
+        <div class="game-media">
+          <img class="banner" src="fbws-banner.jpg" alt="From Bedroom to Wall Street: build your trading empire" loading="lazy">
+        </div>
+        <div class="game-body">
+          <div class="game-head">
+            <img class="game-icon" src="fbws-icon.svg" alt="From Bedroom to Wall Street icon">
+            <div>
+              <div class="genre"><span lang="en">Trading tycoon</span><span lang="it">Gestionale di trading</span><span lang="es">Magnate del comercio</span><span lang="fr">Magnat du commerce</span><span lang="de">Handelsmagnon</span><span lang="pt">Magnate do comércio</span><span lang="ru">Торговый магнат</span><span lang="tr">Ticaret Mayonu</span><span lang="ja">貿易巨人</span><span lang="ko">무역 대장</span></div>
+              <h2>From Bedroom to Wall Street</h2>
+            </div>
+          </div>
+          <p>
+            <span lang="en">Start trading from your bedroom and grow all the way to an office on Wall Street. Hire trading bots, read forex-style charts and build your empire with virtual capital only.</span>
+            <span lang="it">Inizia a fare trading dalla tua cameretta e arriva fino a un ufficio a Wall Street. Assumi bot di trading, leggi grafici in stile forex e costruisci il tuo impero, solo con capitale virtuale.</span><span lang="es">Comience a comerciar desde su dormitorio y crezca hasta una oficina en Wall Street. Contrata robots de trading, lee gráficos de estilo forex y construye tu imperio con capital virtual solo.</span><span lang="fr">Commencez à négocier depuis votre chambre et passez à un bureau sur Wall Street. Embauchez des robots de trading, lisez des graphiques de style forex et construisez votre empire avec seulement du capital virtuel.</span><span lang="de">Beginnen Sie mit dem Handel von Ihrem Schlafzimmer und wachsen Sie bis zu einem Büro auf Wall Street. Hire Trading Bots, lese Forex-Stil-Charts und baue dein Imperium nur mit virtuellem Kapital auf.</span><span lang="pt">Começa a negociar do teu quarto e cresce até um escritório na Wall Street. Contrata robôs de negociação, leia gráficos de estilo forex e construa o seu império com capital virtual apenas.</span><span lang="ru">Начните торговать с вашей спальни и выросли до офиса на Уолл-стрит. Нанимать торговые боты, читать графики в стиле Форекс и строить свою империю с виртуальным капиталом только.</span><span lang="tr">Yatak odan ticaret yapmaya başla ve Wall Street'teki bir ofise kadar büyüme. Ticaret robotlarını kirala, forex tarzındaki tabloları oku ve sadece sanal sermaye ile imparatorluğunuzu inşa et.</span><span lang="ja">寝室から取引を始めウォール街のオフィスまで成長する取引ボットを雇いフォレックス型チャートを読んで仮想資本で帝国を築いてください</span><span lang="ko">침실에서 거래를 시작해서 월 스트리트 사무실까지 성장해 거래 로봇을 고용하고 외환 방식의 차트를 읽어보세요. 가상 자본만 사용하여 제국을 건설하세요.</span>
+          </p>
+          <ul>
+            <li><span lang="en">Rule-based trading bots that work for you</span><span lang="it">Bot di trading a regole che lavorano per te</span><span lang="es">Bot de trading basado en reglas que funcionan para usted</span><span lang="fr">Les robots de trading basés sur les règles qui fonctionnent pour vous</span><span lang="de">Regelnbasierte Handelsroboter, die für Sie funktionieren</span><span lang="pt">Bot de negociação baseados em regras que funcionam para você</span><span lang="ru">Торговые боты на основе правил , которые работают для вас</span><span lang="tr">Senin için çalışan kural tabanlı ticaret robotları</span><span lang="ja">あなたにとって役立つルールベースの取引ボット</span><span lang="ko">규칙에 기반한 거래 로봇이 당신을 위해 작동합니다</span></li>
+            <li><span lang="en">Move from bedroom to studio to a real trading office</span><span lang="it">Dalla cameretta al monolocale fino a un vero ufficio di trading</span><span lang="es">Moverse de un dormitorio a otro en una oficina comercial real</span><span lang="fr">Passer d'une chambre à l'autre et passer à un bureau commercial.</span><span lang="de">Verlegen Sie sich von Schlafzimmer zu Studio zu einem echten Handelsbüro</span><span lang="pt">Mover-se de quarto para estúdio para um escritório comercial real</span><span lang="ru">Перейти из спальни в студию в настоящий торговый офис</span><span lang="tr">Yatak odasından stüdyoya gerçek bir ticaret ofisine geçin .</span><span lang="ja">寝室からスタジオへリアルな取引事務所へ</span><span lang="ko">침실에서 스튜디오로 이사해서 실제 거래소로</span></li>
+            <li><span lang="en">Relaxing soundtrack, made for phones. No real money involved</span><span lang="it">Musica rilassante, pensato per il telefono. Nessun denaro vero</span><span lang="es">Una banda sonora relajante, hecha para teléfonos. No hay dinero real involucrado</span><span lang="fr">Une bande sonore relaxante, faite pour les téléphones. Pas d'argent réel .</span><span lang="de">Entspannender Soundtrack, für Telefone. Es geht um kein echtes Geld .</span><span lang="pt">Uma trilha sonora relaxante, feita para telefones. Não há dinheiro real envolvido</span><span lang="ru">Расслабляющий саундтрек, созданный для телефонов. Нет никаких реальных денег .</span><span lang="tr">Rahatlayıcı bir ses parçası, telefonlar için yapılmış. Gerçek para yok .</span><span lang="ja">携帯用に作られる楽曲真のお金は関係ありません</span><span lang="ko">휴식 음반, 휴대폰으로 만들어졌습니다. 진짜 돈이 안 들어</span></li>
+            <li><span lang="en">10 languages:</span><span lang="it">10 lingue:</span><span lang="es">10 lenguas:</span><span lang="fr">10 langues:</span><span lang="de">10 Sprachen:</span><span lang="pt">10 línguas:</span><span lang="ru">10 языков:</span><span lang="tr">10 dil:</span><span lang="ja">10 言語:</span><span lang="ko">10개의 언어:</span> English, Italiano, Español, Français, Deutsch, Português, Русский, Türkçe, 日本語, 한국어</li>
+          </ul>
+          <span class="status"><span lang="en">Coming soon to Google Play</span><span lang="it">Presto su Google Play</span><span lang="es">Muy pronto en Google Play</span><span lang="fr">Bientôt sur Google Play</span><span lang="de">Bald auf Google Play</span><span lang="pt">Em breve no Google Play</span><span lang="ru">Скоро в Google Play</span><span lang="tr">Yakında Google Play'de</span><span lang="ja">まもなくGoogle Playで公開</span><span lang="ko">곧 Google Play 출시</span></span>
+        </div>
+      </article>
+
+      <article class="game g-roulette" id="last-roulette">
+        <div class="game-media">
+          <img class="banner" src="lastroulette-banner.jpg" alt="Death standing next to the roulette table in Last Roulette" loading="lazy">
+        </div>
+        <div class="game-body">
+          <div class="game-head">
+            <img class="game-icon" src="lastroulette-icon.jpg" alt="Last Roulette icon">
+            <div>
+              <div class="genre"><span lang="en">Roguelike · Roulette</span><span lang="it">Roguelike · Roulette</span><span lang="es">Como un ladrón</span><span lang="fr">Comme un voleur</span><span lang="de">Wie ein Schurken</span><span lang="pt">Roguelike · Roleta</span><span lang="ru">Рогги · Рулетка</span><span lang="tr">- Rulet gibi</span><span lang="ja">ローグのような · ルレット</span><span lang="ko">로그처럼 · 루렛</span></div>
+              <h2>Last Roulette: Deal with Death</h2>
+            </div>
+          </div>
+          <p>
+            <span lang="en">Death took you by mistake. Now you sit at its table and play roulette for your life: win ten challenges to come back, lose everything and the trapdoor opens.</span>
+            <span lang="it">La Morte ti ha preso per sbaglio. Ora sei al suo tavolo e giochi alla roulette per la tua vita: vinci dieci sfide per tornare, perdi tutto e si apre la botola.</span><span lang="es">La muerte te tomó por error. Ahora te sientas a su mesa y juegas a la ruleta por tu vida: ganar diez desafíos para volver, perder todo y la trampa se abre.</span><span lang="fr">La mort vous a pris par erreur. Maintenant , vous vous asseyez à sa table et jouez à la roulette pour la vie: gagner dix défis pour revenir, perdre tout et la trappe s'ouvre.</span><span lang="de">Der Tod hat dich durch einen Fehler genommen. Jetzt sitzt du an seinem Tisch und spielst Roulette für dein Leben: Sie gewinnen zehn Herausforderungen, um zurückzukehren, verlieren alles und die Falle öffnet sich.</span><span lang="pt">A morte levou-te por engano. Agora, sentas-te à mesa dele e jogas ruleta para a tua vida: Ganham dez desafios para voltarem, perdem tudo e a armadilha abre-se.</span><span lang="ru">Смерть забрала тебя по ошибке. Теперь ты сидишь за его столом и играешь в рулетку на всю свою жизнь: Выиграть десять вызовов, вернуться, потерять все и дверь в ловушку откроется.</span><span lang="tr">Ölüm seni yanlışlıkla aldı. Şimdi onun masasında oturup hayatın boyunca rulet oynarsın: Geri dönmek için 10 tane meydan okuma kazanır, her şeyi kaybeder ve tuzak kapısı açılır.</span><span lang="ja">死は間違って連れて行ったテーブルに座ってルーレットで人生を過ごす10つの挑戦を勝ち取り戻るには全てを失うと罠が開く</span><span lang="ko">죽음은 실수로 데려갔어 이제 당신은 그 테이블에 앉아서 당신의 삶을 위해 룰렛을 플레이합니다. 10개의 도전을 이기면 다시 돌아와 모든 것을 잃게 되고 트랩도어가 열립니다.</span>
+          </p>
+          <ul>
+            <li><span lang="en">Retro 3D atmosphere in a candle-lit crypt</span><span lang="it">Atmosfera 3D retrò in una cripta illuminata dalle candele</span><span lang="es">Atmosfera 3D retro en una cripta iluminada por velas</span><span lang="fr">Atmosphère 3D rétro dans une crypte allumée de bougie</span><span lang="de">Retro 3D-Atmosphäre in einer Kerzen-beleuchteten Krypta</span><span lang="pt">Atmosfera 3D retrógrada numa cripta iluminada por velas</span><span lang="ru">Ретро 3D атмосфера в свечевой крипте</span><span lang="tr">Mum ışığıyla aydınlatılmış bir kriptte retro 3D atmosfer</span><span lang="ja">レートロ3D大気ろうそくの光で囲まれた</span><span lang="ko">촛불 조명된 암호에서 3D 반향 분위기</span></li>
+            <li><span lang="en">Tarot-like Decrees that bend the rules of the wheel</span><span lang="it">Decreti simili ai tarocchi che piegano le regole della ruota</span><span lang="es">Decreto de tarot que doblan las reglas de la rueda</span><span lang="fr">Des décrets de tarot qui plient les règles de la roue</span><span lang="de">Tarot-ähnliche Dekrete, die die Regeln des Rades bücken</span><span lang="pt">Decreto de tarot que dobram as regras da roda</span><span lang="ru">Тароподобные постановления, которые сгибают правила колеса</span><span lang="tr">Tekerlek kurallarını eğen Tarot gibi kararlar</span><span lang="ja">タロットのような命令が車輪の規則を曲げます</span><span lang="ko">타로처럼 되어 있는 명령으로 바퀴의 규칙을 구부러뜨리는 법</span></li>
+            <li><span lang="en">Every run invents a new, ironic cause of death</span><span lang="it">Ogni partita inventa una nuova, ironica causa di morte</span><span lang="es">Cada carrera inventa una nueva y irónica causa de muerte.</span><span lang="fr">Chaque course invente une nouvelle cause de mort ironique.</span><span lang="de">Jeder Lauf erfindet eine neue, ironische Todesursache.</span><span lang="pt">Cada corrida inventa uma nova e irônica causa de morte.</span><span lang="ru">Каждый бег придумывает новую ироническую причину смерти.</span><span lang="tr">Her koşuş yeni bir ölüm nedeni ortaya çıkarır.</span><span lang="ja">走るたびに新しい死因が発明される</span><span lang="ko">모든 경주에서 새로운 아이러니적인 사망 원인을 발명합니다</span></li>
+            <li><span lang="en">10 languages:</span><span lang="it">10 lingue:</span><span lang="es">10 lenguas:</span><span lang="fr">10 langues:</span><span lang="de">10 Sprachen:</span><span lang="pt">10 línguas:</span><span lang="ru">10 языков:</span><span lang="tr">10 dil:</span><span lang="ja">10 言語:</span><span lang="ko">10개의 언어:</span> English, Italiano, Español, Français, Deutsch, Português, Русский, Türkçe, 日本語, 한국어</li>
+          </ul>
+          <span class="status"><span lang="en">Coming soon to Google Play</span><span lang="it">Presto su Google Play</span><span lang="es">Muy pronto en Google Play</span><span lang="fr">Bientôt sur Google Play</span><span lang="de">Bald auf Google Play</span><span lang="pt">Em breve no Google Play</span><span lang="ru">Скоро в Google Play</span><span lang="tr">Yakında Google Play'de</span><span lang="ja">まもなくGoogle Playで公開</span><span lang="ko">곧 Google Play 출시</span></span>
+        </div>
+      </article>
+
+      <article class="game g-galactic" id="galactic">
+        <div class="game-media">
+          <img class="banner" src="galactic-banner.jpg" alt="Alien landscape from Galactic Buuurrrp Survival" loading="lazy">
+        </div>
+        <div class="game-body">
+          <div class="game-head">
+            <img class="game-icon" src="galactic-icon.jpg" alt="Galactic Buuurrrp Survival icon">
+            <div>
+              <div class="genre"><span lang="en">Arena survival</span><span lang="it">Sopravvivenza in arena</span><span lang="es">Sobrevivencia en la arena</span><span lang="fr">Survie dans l'arène</span><span lang="de">Arena-Überleben</span><span lang="pt">Sobrevivência na Arena</span><span lang="ru">Выживание в арене</span><span lang="tr">Arena hayatta kalması</span><span lang="ja">アレナでの生存</span><span lang="ko">아레나 생존</span></div>
+              <h2>Galactic Buuurrrp Survival</h2>
+            </div>
+          </div>
+          <p>
+            <span lang="en">Survive ten waves of alien creatures in a crazy galactic arena. Your weapons fire on their own: you dodge, collect and upgrade.</span>
+            <span lang="it">Sopravvivi a dieci ondate di creature aliene in un'arena galattica folle. Le armi sparano da sole: tu schivi, raccogli e potenzi.</span><span lang="es">Sobrevivir a diez olas de criaturas alienígenas en una arena galáctica loca. Sus armas disparan por sí mismas: Evades, cobras y actualizas.</span><span lang="fr">Survivre à dix vagues d'extraterrestres dans une arena galactique folle. Vos armes tirent par elles-mêmes: Vous évitez, vous collectez et vous améliorez.</span><span lang="de">Überleben Sie zehn Wellen außerirdischer Kreaturen in einer verrückten galaktischen Arena. Ihre Waffen schießen von selbst: Du vermeidest, sammelst und aktualisierst.</span><span lang="pt">Sobrevivem a dez ondas de criaturas alienígenas numa arena galáctica louca. As suas armas disparam por conta própria: Evades, colecciona e atualiza.</span><span lang="ru">Выжить десять волн инопланетных существ в безумной галактической арене. Твои оружия стреляют самостоятельно: Вы уклоняетесь, собираете и обновляете.</span><span lang="tr">Çılgın bir galaksik arenada on uzaylı varlık dalgasını hayatta tutmak. Silahlarınız kendi başlarına ateş eder: Uzaklaşır, toplar ve yükseltirsin.</span><span lang="ja">銀河系の狂った舞台で 10つの波の異星人の生存武器は自発的に発射する逃げる,収集,アップグレードする</span><span lang="ko">10개의 외계 생물의 파도를 거친 은하계 무대에서 살아남기 위해 당신의 무기들은 스스로 발사한다. 당신은 회피하고, 수집하고, 업그레이드합니다.</span>
+          </p>
+          <ul>
+            <li><span lang="en">Auto-firing weapons and growing waves</span><span lang="it">Armi automatiche e ondate sempre più dure</span><span lang="es">Armas de fuego automático y olas crecientes</span><span lang="fr">Armes à tir automatique et vagues croissantes</span><span lang="de">Autoverfeuerte Waffen und wachsende Wellen</span><span lang="pt">Armas de fogo automático e ondas crescentes</span><span lang="ru">Автономное оружие и растущие волны</span><span lang="tr">Otomatik ateşleyici silahlar ve büyüyen dalgalar</span><span lang="ja">自動発射兵器と波の拡大</span><span lang="ko">자동 발사 무기 및 성장하는 파도</span></li>
+            <li><span lang="en">Coins and upgrades between waves</span><span lang="it">Monete e potenziamenti tra un'ondata e l'altra</span><span lang="es">Monedas y actualizaciones entre olas</span><span lang="fr">Monnaies et mises à niveau entre les vagues</span><span lang="de">Münzen und Upgrades zwischen den Wellen</span><span lang="pt">Moedas e atualizações entre ondas</span><span lang="ru">Монеты и обновления между волнами</span><span lang="tr">Döngüler arasındaki paralar ve yükseltmeler</span><span lang="ja">波間硬貨とアップグレード</span><span lang="ko">동전 및 파급 중 업그레이드</span></li>
+            <li><span lang="en">10 languages:</span><span lang="it">10 lingue:</span><span lang="es">10 lenguas:</span><span lang="fr">10 langues:</span><span lang="de">10 Sprachen:</span><span lang="pt">10 línguas:</span><span lang="ru">10 языков:</span><span lang="tr">10 dil:</span><span lang="ja">10 言語:</span><span lang="ko">10개의 언어:</span> English, Italiano, Español, Français, Deutsch, Português, Русский, Türkçe, 日本語, 한국어</li>
+          </ul>
+          <span class="status"><span lang="en">Coming soon to Google Play</span><span lang="it">Presto su Google Play</span><span lang="es">Muy pronto en Google Play</span><span lang="fr">Bientôt sur Google Play</span><span lang="de">Bald auf Google Play</span><span lang="pt">Em breve no Google Play</span><span lang="ru">Скоро в Google Play</span><span lang="tr">Yakında Google Play'de</span><span lang="ja">まもなくGoogle Playで公開</span><span lang="ko">곧 Google Play 출시</span></span>
+        </div>
+      </article>
+
+      <article class="game g-pants" id="pants-thief">
+        <div class="game-media">
+          <img class="banner" src="pantsthief-banner.jpg" alt="The Pants Thief running with his sack" loading="lazy">
+        </div>
+        <div class="game-body">
+          <div class="game-head">
+            <img class="game-icon" src="pantsthief-icon.jpg" alt="Pants Thief icon">
+            <div>
+              <div class="genre"><span lang="en">Arcade runner · 18+</span><span lang="it">Runner arcade · 18+</span><span lang="es">Corredor de arcade · 18 años o más</span><span lang="fr">Coureur de l'arcade · 18 ans et plus</span><span lang="de">Arcade-Runner · 18+</span><span lang="pt">Corredor de arcade · 18+</span><span lang="ru">Аркадный бегатель · 18+</span><span lang="tr">Arcade koşucusu · 18+</span><span lang="ja">アークードランナー · 18歳以上</span><span lang="ko">아케이드 런어 · 18+</span></div>
+              <h2>Pants Thief</h2>
+            </div>
+          </div>
+          <p>
+            <span lang="en">A cheeky runner for adults: grab the bras, jump the obstacles and escape from angry women and the police through 100 short levels.</span>
+            <span lang="it">Un runner sfacciato per adulti: arraffa i reggiseni, salta gli ostacoli e scappa da donne arrabbiate e polizia in 100 livelli brevi.</span><span lang="es">Un corredor atrevido para adultos: Agarra los sujetadores, salta los obstáculos y escapa de las mujeres enojadas y la policía a través de 100 niveles cortos.</span><span lang="fr">Un coureur audacieux pour les adultes: Prenez les soutiens, sautez les obstacles et fuyez les femmes en colère et la police à travers 100 niveaux courts.</span><span lang="de">Ein frecher Läufer für Erwachsene: Nehmen Sie die BH, springen Sie über Hindernisse und entkommen Sie von wütenden Frauen und der Polizei durch 100 kurze Stufen.</span><span lang="pt">Um corredor de coragem para adultos: Agarra-te aos sutiãs, salta os obstáculos e foge das mulheres zangadas e da polícia através de 100 níveis curtos.</span><span lang="ru">Смелый бегатель для взрослых: Схватите бюстгальтеры, прыгайте на препятствия и убегайте от злых женщин и полиции через 100 коротких уровней.</span><span lang="tr">Yetişkinler için cesur bir koşucu: Sıcaklıkları tut, engellerden at ve kızgın kadınlardan ve polislerden kaç. 100 kısa seviyeye geç.</span><span lang="ja">大人のための臆病なランナーブースを握って障害物を跳ねて 100の短距離を怒った女性や警察から逃れ</span><span lang="ko">어른들을 위한 무겁한 달리는 브래스밴을 잡고 장애물을 뛰어내리고 분노한 여성과 경찰으로부터 100개의 단층을 통과해 도망쳐라</span>
+          </p>
+          <ul>
+            <li><span lang="en">100 levels of 40 seconds in 5 worlds, from day to night</span><span lang="it">100 livelli da 40 secondi in 5 mondi, dal giorno alla notte</span><span lang="es">100 niveles de 40 segundos en 5 mundos, de día a noche</span><span lang="fr">100 niveaux de 40 secondes dans 5 mondes, du jour à la nuit</span><span lang="de">100 Stufen von 40 Sekunden in 5 Welten, von Tag bis Nacht</span><span lang="pt">100 níveis de 40 segundos em 5 mundos, de dia a noite.</span><span lang="ru">100 уровней в 40 секунд в 5 мирах, от дня до ночи</span><span lang="tr">Gündüzden geceye kadar, 5 dünyada 40 saniyelik 100 seviye.</span><span lang="ja">5つの世界で40秒間の 100レベル,昼から夜</span><span lang="ko">5개의 세계에서 40초의 100개의 레벨, 낮부터 밤까지</span></li>
+            <li><span lang="en">Police dogs, detectives and a boss in every world</span><span lang="it">Cani poliziotto, detective e un boss in ogni mondo</span><span lang="es">Perros de policía, detectives y un jefe en todo el mundo</span><span lang="fr">Des chiens de police, des détectives et un patron dans tous les pays.</span><span lang="de">Polizeihunde, Detektive und ein Chef in jeder Welt</span><span lang="pt">Cães de polícia, detetives e chefes em todos os mundos.</span><span lang="ru">Полицейские собаки, детективы и босс во всем мире</span><span lang="tr">Polis köpekleri, dedektifler ve her dünyada bir patron.</span><span lang="ja">警犬や刑事そしてあらゆる世界の上司</span><span lang="ko">경찰 개, 탐정자, 그리고 모든 세계에서</span></li>
+            <li><span lang="en">Power-ups, achievements and a puzzle gallery to unlock</span><span lang="it">Potenziamenti, trofei e una galleria di puzzle da sbloccare</span><span lang="es">Power-ups, logros y una galería de rompecabezas para desbloquear</span><span lang="fr">Des puissances, des réalisations et une galerie de puzzle à déverrouiller</span><span lang="de">Power-ups, Erfolge und eine Puzzle-Galerie zum Entrieben</span><span lang="pt">Power-ups, conquistas e uma galeria de quebra-cabeças para desbloquear</span><span lang="ru">Усилия, достижения и галерея головоломки для разблокировки</span><span lang="tr">Güçlendirme, başarı ve çözmek için bir bulmaca galerisi</span><span lang="ja">解き放つためのパズルギャラリー</span><span lang="ko">파워업, 업적, 풀기 위한 퍼즐 갤러리</span></li>
+            <li><span lang="en">10 languages:</span><span lang="it">10 lingue:</span><span lang="es">10 lenguas:</span><span lang="fr">10 langues:</span><span lang="de">10 Sprachen:</span><span lang="pt">10 línguas:</span><span lang="ru">10 языков:</span><span lang="tr">10 dil:</span><span lang="ja">10 言語:</span><span lang="ko">10개의 언어:</span> English, Italiano, Español, Français, Deutsch, Português, Русский, Türkçe, 日本語, 한국어</li>
+          </ul>
+          <span class="status"><span lang="en">Coming soon to Google Play</span><span lang="it">Presto su Google Play</span><span lang="es">Muy pronto en Google Play</span><span lang="fr">Bientôt sur Google Play</span><span lang="de">Bald auf Google Play</span><span lang="pt">Em breve no Google Play</span><span lang="ru">Скоро в Google Play</span><span lang="tr">Yakında Google Play'de</span><span lang="ja">まもなくGoogle Playで公開</span><span lang="ko">곧 Google Play 출시</span></span>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>© 2026 Luca Bartiromo Games</span>
+      <span><a href="privacy.html"><span lang="en">Privacy policy</span><span lang="it">Informativa sulla privacy</span><span lang="es">Política de privacidad</span><span lang="fr">Politique de confidentialité</span><span lang="de">Datenschutzrichtlinie</span><span lang="pt">Política de privacidade</span><span lang="ru">Политика конфиденциальности</span><span lang="tr">Gizlilik politikası</span><span lang="ja">プライバシーポリシー</span><span lang="ko">개인정보 처리방침</span></a> · <a href="app-ads.txt">app-ads.txt</a></span>
+    </div>
+  </footer>
+</body>
+</html>
