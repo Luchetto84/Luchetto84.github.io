@@ -112,6 +112,11 @@ a { color: var(--accent); }
 }
 .status::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 10px var(--gold); }
 
+a.status { text-decoration: none; }
+.status-live { background: rgba(61, 220, 151, .14); color: #3ddc97; border-color: rgba(61, 220, 151, .55); }
+.status-live::before { background: #3ddc97; box-shadow: 0 0 10px #3ddc97; }
+.status-live:hover { background: rgba(61, 220, 151, .26); }
+
 /* temi dei singoli giochi */
 .g-prisma .genre { color: #7df9ff; }
 .g-prisma .game-media { background: radial-gradient(circle at 30% 20%, #3a1d6e, #0d3b4f); }
@@ -170,6 +175,7 @@ select.lang option { color: #111; }
 @media (prefers-reduced-motion: reduce) { .brand-lumi, .lumi-float, .lumi-bubble { animation: none; } }
 .g-wordblade .game-media img.banner { object-fit: contain; }
 .g-napoli .genre { color: #ffb347; }
+.g-napoli .game-media img.banner { object-fit: contain; }
 .g-napoli .game-media { background: radial-gradient(circle at 30% 30%, #8a1c12, #2a0806); }
 .g-woof .genre { color: #3ddc97; }
 .g-woof .game-media { background: radial-gradient(circle at 30% 30%, #0a4a59, #0a0f30); }
