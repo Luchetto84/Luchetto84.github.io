@@ -169,6 +169,8 @@ select.lang option { color: #111; }
 @keyframes lumi-pop { from { opacity: 0; transform: scale(.6) translateY(10px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { .brand-lumi, .lumi-float, .lumi-bubble { animation: none; } }
 .g-wordblade .game-media img.banner { object-fit: contain; }
+.g-napoli .genre { color: #ffb347; }
+.g-napoli .game-media { background: radial-gradient(circle at 30% 30%, #8a1c12, #2a0806); }
 .g-woof .genre { color: #3ddc97; }
 .g-woof .game-media { background: radial-gradient(circle at 30% 30%, #0a4a59, #0a0f30); }
 .g-woof .game-media img.banner { object-fit: contain; }
